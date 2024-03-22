@@ -1,0 +1,12 @@
+POST http://localhost:4000/app/book
+Content-Type: application/json
+
+{
+    "firstname":"Bob",
+    "lastname":"Frank",
+    "email":"hello@mail.com",
+    "phone":"65788399",
+    "numberofguests":"8",
+    "bookingdate":"03-11-2022",
+    "bookingtime":"4pm"
+}
